@@ -4,7 +4,7 @@ AulaTrack es una aplicación web académica para gestionar actividades, fechas d
 
 ## Funcionalidades
 
-La aplicación incluye autenticación mediante Manus OAuth, persistencia de usuarios y actividades en MySQL/TiDB, validación de entradas con Zod, procedimientos tRPC protegidos y operaciones CRUD con aislamiento por propietario. La interfaz muestra estados de carga, error y vacío, además de una consola visual de evidencias para las operaciones del servidor.
+La aplicación incluye autenticación mediante OAuth, persistencia de usuarios y actividades en MySQL/TiDB, validación de entradas con Zod, procedimientos tRPC protegidos y operaciones CRUD con aislamiento por propietario. La interfaz muestra estados de carga, error y vacío, además de una consola visual de evidencias para las operaciones del servidor.
 
 ## Arquitectura
 
@@ -22,7 +22,7 @@ pnpm build
 pnpm dev
 ```
 
-No se incluyen secretos, archivos `.env`, `node_modules`, `dist` ni logs del entorno local. En el entorno administrado de Manus, las variables requeridas se inyectan mediante la configuración del proyecto.
+No se incluyen secretos, archivos `.env`, `node_modules`, `dist` ni logs del entorno local. En el entorno, las variables requeridas se inyectan mediante la configuración del proyecto.
 
 ## Evidencias
 
